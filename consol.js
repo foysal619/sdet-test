@@ -3,3 +3,6 @@
 consol.log("Hello World")
 
 consol.log("tst")
+consol.log("tst")
+consol.log("tst")
+consol.log("tst")
