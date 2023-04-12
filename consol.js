@@ -28,3 +28,9 @@ describe('Login page', () => {
     })
   })
   asdfdfkjdflkoeriuo
+  asdjfajd
+
+  asdfkjaksdf
+
+
+  cy.get('#password')
