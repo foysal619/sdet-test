@@ -30,10 +30,3 @@ describe('Login page', () => {
     })
   })
 
-tjskhgasdfad
-fasjdf
-dfjskdffasda
-fadjhfsdfa
-appendFile
-dfjlasoj
-fasdf
