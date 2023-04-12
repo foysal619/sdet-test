@@ -29,4 +29,4 @@ describe('Login page', () => {
   })
 
 
-  stkforktj
+  stkforktjatest
