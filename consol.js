@@ -16,11 +16,3 @@ consol.log("tst236")
 
 consol.log("tst21365")
 
-consol.log("tst2213")
-
-
-consol.log("tst4566")
-
-consol.log("tst1235")
-
-consol.log("tst"44554)
