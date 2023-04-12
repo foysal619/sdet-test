@@ -27,4 +27,4 @@ describe('Login page', () => {
       cy.get('.error-message').should('be.visible') // verify that an error message is displayed on the page
     })
   })
-
+tst
