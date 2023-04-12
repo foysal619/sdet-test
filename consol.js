@@ -1,3 +1,5 @@
+const { appendFile } = require("fs")
+
 describe('Login page', () => {
     it('should successfully log in', () => {
       cy.visit('/login') // navigate to login page
@@ -28,6 +30,3 @@ describe('Login page', () => {
     })
   })
 
-tjskhgasdfad
-fasjdf
-dfjskdf
