@@ -35,14 +35,6 @@ kkjjk
 jkkjfjkkljkj
 
 
-fsdkfj
-
-
-
-dkjfskjkljf
-
-adjkhkjh
-fasdf
-
+fsfgf
 
 fadfdf
