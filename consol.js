@@ -1,22 +1,29 @@
-// hey this is a comment
-
-consol.log("Hello World")
-
-consol.log("tst")
-consol.log("tst")
-consol.log("tst")
-https://github.com/foysal619/sdet-test/compare/main...musfiq4455:sdet-test:test?expand=1
-https://github.com/foysal619/sdet-test/compare/main...musfiq4455:sdet-test:test?expand=1https://github.com/foysal619/sdet-test/compare/main...musfiq4455:sdet-test:test?expand=1
-dfkakljdfjsodjf
-dfksd
-
-consol.log("tst23")
-
-consol.log("tst236")
-
-consol.log("tst21365")
-
-consol.log("tst123654")
-
-
-consol.log("jakfoqwe")
+describe('Login page', () => {
+    it('should successfully log in', () => {
+      cy.visit('/login') // navigate to login page
+  
+      cy.get('#username') // find username input field
+        .type('myusername') // enter username
+  
+      cy.get('#password') // find password input field
+        .type('mypassword') // enter password
+  
+      cy.get('form').submit() // submit the login form
+  
+      cy.url().should('include', '/dashboard') // verify successful login by checking the URL of the next page
+    })
+  
+    it('should display an error message for incorrect login details', () => {
+      cy.visit('/login')
+  
+      cy.get('#username')
+        .type('incorrectusername')
+  
+      cy.get('#password')
+        .type('incorrectpassword')
+  
+      cy.get('form').submit()
+  
+      cy.get('.error-message').should('be.visible') // verify that an error message is displayed on the page
+    })
+  })
